@@ -1,5 +1,5 @@
 # SVMap
-SVMap is a tools for fine mapping the genomic structural variations of interest.
+SVMap is a tool for fine mapping the genomic structural variations of interest.
 
 ## Python requirements
 - python2.7
