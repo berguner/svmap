@@ -14,7 +14,7 @@ SVMap is a tool for fine mapping the genomic structural variations of interest.
 - ABySS assembler
 - Reference genome fasta file
 
-## Quick Start
+## Quick guide
 1. Make sure indexes of the genome for BWA and Blastn are in the same directory with the reference fasta
 2. Prepare a tab delimited .bed file listing interested regions
     "CHR START	END	Info1	Info2	Info3"
@@ -23,3 +23,4 @@ SVMap is a tool for fine mapping the genomic structural variations of interest.
 5. Assemble the extracted reads with "assemble.py"
 6. Blast the assembled contigs with "blast.py"
 7. Parse and plot the results by "svmap.py"
+. The results will be under output_dir/info2/info3/
