@@ -22,4 +22,4 @@ SVMap is a tool for fine mapping the genomic structural variations of interest.
 4. If you want faster results use "extractreads_bam.py". Note that this will not extract unmapped reads.
 5. Assemble the extracted reads with "assemble.py"
 6. Blast the assembled contigs with "blast.py"
-7. Parse and plot the results by "parse.py"
+7. Parse and plot the results by "svmap.py"
